@@ -1,8 +1,7 @@
 # purescript-treemap
 
-[![Latest release](http://img.shields.io/bower/v/purescript-treemap.svg)](https://github.com/purescript/purescript-treemap/releases)
-[![Build Status](https://travis-ci.org/slamdata/purescript-treemap.svg?branch=master)](https://travis-ci.org/slamdata/purescript-treemap)
-[![Dependency Status](https://www.versioneye.com/user/projects/57a31c26ee8fff004ac98410/badge.svg?style=flat)](https://www.versioneye.com/user/projects/57a31c26ee8fff004ac98410)
+[![Latest release](http://img.shields.io/github/release/slamdata/purescript-treemap.svg)](https://github.com/purescript/purescript-treemap/releases)
+[![Build status](https://travis-ci.org/slamdata/purescript-treemap.svg?branch=master)](https://travis-ci.org/slamdata/purescript-treemap)
 
 Treemap computation algorithms.
 
