@@ -31,9 +31,9 @@ treemap f xs rect@(Rectangle _ _ width height) =
   in squarify f scale xs rect
 
 squarify ∷ ∀ a. (a → Number) → Number → List a → Rectangle → List (Cell a)
-squarify f scale xs rect =
-  let sorted = L.sortBy (flip compare `on` f) xs
-  in join $ go Nil rect sorted Nil 0.0 (shortestSide rect)
+squarify f scale initialXs boundingRect =
+  let sorted = L.sortBy (flip compare `on` f) initialXs
+  in join $ go Nil boundingRect sorted Nil 0.0 (shortestSide boundingRect)
   where
 
   go
